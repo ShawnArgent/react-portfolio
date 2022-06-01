@@ -7,11 +7,11 @@ export default function Contact() {
       <br />
       <span>Email: </span>kshawn001@gmail.com
       <br />
-      <a href="">GitHub</a>
+      <a href="http://www.github.com/ShawnArgent">GitHub</a>
       <br />
-      <a href="">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/shawnargent">LinkedIn</a>
       <br />
-      <a href="">Resume</a>
+      <a href="https://docs.google.com/document/d/1iwhhYc86jhPoLdwy33BwF5SDI1HUuU78782nHhk2b8Y/edit?usp=sharing">Resume</a>
     </contact>
   );
 }
