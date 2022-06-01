@@ -1,0 +1,26 @@
+import React from 'react';
+import Projects from '../../components/Projects';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+function Wrapper(props) {
+  return <div className="wrapper">{props.children}</div>;
+}
+
+function ProjectContainer(props) {
+  return (
+    <section className="container">
+      <div className="projects">
+        <h2 className="top-title">Projects</h2>
+        <hr></hr>
+      </div>
+
+      <Wrapper id="card-data">
+        {ProjectContainer.map((project) => (
+          <Projects key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy} topics={project.topics} />
+        ))}
+      </Wrapper>
+    </section>
+  );
+}
+
+export default ProjectContainer;
