@@ -1,0 +1,105 @@
+<div>
+  <meta charset="UTF-8" />
+  <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shawn Argent Professional Portfolio</title>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+    crossorigin="anonymous"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <header className="section header">
+    <img className="headshot" src="assets/NoBackgroundImage.png" />
+    <h1>SHAWN ARGENT</h1>
+    <h2>Web Developer</h2>
+    <div className="navbar">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+      <a href="https://docs.google.com/document/d/1iwhhYc86jhPoLdwy33BwF5SDI1HUuU78782nHhk2b8Y/edit?usp=sharing">Resume</a>
+    </div>
+  </header>
+  <br />
+  {/*About me*/}
+  <main>
+    <section className="section about">
+      <h3>About</h3>
+      <p>Current UCSD|Extension, Full Stack Flex Coding Bootcamp student.</p>
+    </section>
+    <br />
+    {/*Work section*/}
+    <section className="section">
+      <h3 className="sectionTitle">Work</h3>
+    </section>
+    <div className="row">
+      <div className="col-lg-2 text-center">
+        <div className="card">
+          <a href="https://shawnargent.github.io/js-password-gen/" target="_blank">
+            <h4 className="card-header">Password Generator <button type="button" className="btn btn-secondary btn-sm">DEMO</button></h4>
+            <img src="./assets/images/shawnargent.github.io_js-password-gen_.png" className="card-img-top" alt="password generator example"
+          /></a>
+          <article className="card-text">HTML, CSS, JS</article>
+          <a className="links repo" href="https://github.com/ShawnArgent/js-password-gen"> <i className="fa-brands fa-github" /></a>
+        </div>
+      </div>
+      <div className="col-lg-2 text-center">
+        <div className="card">
+          <a href="https://shawnargent.github.io/day-planner/" target="_blank">
+            <h4 className="card-header">Day Planner <button type="button" className="btn btn-secondary btn-sm">DEMO</button></h4>
+            <img src="./assets/images/shawnargent.github.io_day-planner_.png" className="card-img-top" alt="day planner example"
+          /></a>
+          <article className="card-text">HTML, CSS, JS</article>
+          <a className="links repo" href="https://github.com/ShawnArgent/day-planner"> <i className="fa-brands fa-github" /></a>
+        </div>
+      </div>
+      <div className="col-lg-2 text-center">
+        <div className="card">
+          <a href="https://shawnargent.github.io/Java-Quiz-Code/" target="_blank">
+            <h4 className="card-header">JS Quiz <button type="button" className="btn btn-secondary btn-sm">DEMO</button></h4>
+            <img src="./assets/images/shawnargent.github.io_Java-Quiz-Code_.png" className="card-img-top" alt="javascript quiz example"
+          /></a>
+          <article className="card-text">HTML, CSS, JS</article>
+          <a className="links repo" href="https://github.com/ShawnArgent/Java-Quiz-Code"> <i className="fa-brands fa-github" /></a>
+        </div>
+      </div>
+      <div className="col-lg-2 text-center">
+        <div className="card">
+          <a href="https://shawnargent.github.io/weather-dashboard/" target="_blank">
+            <h4 className="card-header">Weather Dashboard <button type="button" className="btn btn-secondary btn-sm">DEMO</button></h4>
+            <img src="./assets/images/shawnargent.github.io_weather-dashboard_.png" className="card-img-top" alt="weather dashboard example"
+          /></a>
+          <article className="card-text">HTML, CSS, JS</article>
+          <a className="links repo" href="https://github.com/ShawnArgent/weather-dashboard"> <i className="fa-brands fa-github" /></a>
+        </div>
+      </div>
+      <div className="col-lg-2 text-center">
+        <div className="card">
+          <a href="https://mrmrc182.github.io/farm-market-finder/" target="_blank">
+            <h4 className="card-header">Farmers' Market Finder <button type="button" className="btn btn-secondary btn-sm">DEMO</button></h4>
+            <img src="./assets/images/mrmrc182.github.io_farm-market-finder_.png" className="card-img-top" alt="market finder example"
+          /></a>
+          <article className="card-text">HTML, CSS, JS</article>
+          <a className="links repo" href="https://github.com/ShawnArgent/farm-market-finder"> <i className="fa-brands fa-github" /></a>
+        </div>
+      </div>
+    </div>
+  </main>
+  {/*Contact section*/}
+  <div className="footer" id="contact">
+    <h4>Contact</h4>
+    <a className="links email" href="mailto:kshawn001@gmail.com">
+      <i className="fa-solid fa-envelope" />
+    </a>
+    <a className="links git" href="http://www.github.com/ShawnArgent">
+      <i className="fa-brands fa-github" />
+    </a>
+    <a className="links linkedin" href="https://www.linkedin.com/in/shawnargent">
+      <i className="fa-brands fa-linkedin" />
+    </a>
+  </div>
+</div>

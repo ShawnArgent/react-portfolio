@@ -1,0 +1,15 @@
+.footer {
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .footer .links {
+    padding: 25px;
+  }
+  
+  .footer a:hover {
+    background-color: #91a6c7; 
+    color: var(secodary);  
+    text-decoration: none;
+  }

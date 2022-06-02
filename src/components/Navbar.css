@@ -1,0 +1,25 @@
+.navbar {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar a {
+    float: left; 
+    display: flex; 
+    color: var(--color-secondary);  
+    padding: 14px 20px;  
+    text-decoration: none;  
+  }
+  
+  .navbar a:hover {
+    background-color: #91a6c7;  
+    color: var(--color-secondary);  
+  }
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+  

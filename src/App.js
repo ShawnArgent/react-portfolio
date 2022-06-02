@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from './components/Navbar/Navbar';
-import About from './components/About/About';
-import Projects from './components/Projects/Projects';
-import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar';
+import About from './components/About';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
