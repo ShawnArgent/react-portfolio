@@ -7,7 +7,7 @@ import Planner from '../../images/day_planner.png';
 const Projects = () => {
   return (
     <div className="projects" id="projects">
-      <span style>Projects</span>
+      <span className>Projects</span>
 
       <img src={Quiz} alt="" />
 
