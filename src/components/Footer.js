@@ -1,13 +1,14 @@
-import React from 'react';
+import './Footer.css';
 
-const Footer = () => {
-  return (
-    <div className="footer">
-      <div className="f-content">
-        <span>kshawn001@gmail.com</span>
-      </div>
-    </div>
-  );
-};
+const Footer = () => (
+  <footer className='footer'>
+    <a
+      href='https://github.com/ShawnArgent/react-portfolio'
+      className='link footer__link'
+    >
+      Created By Shawn Argent
+    </a>
+  </footer>
+)
 
-export default Footer;
+export default Footer
