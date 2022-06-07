@@ -6,7 +6,7 @@
 }
 
 .light {
-  --clr-bg: #fcfcfc;
+  --clr-bg: rgb(122, 190, 238);
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
@@ -93,6 +93,7 @@ main {
 
 .btn--outline {
   color: var(--clr-primary);
+  background-color: #fcfcfc;
   border: 2px solid var(--clr-primary);
   position: relative;
   overflow: hidden;
