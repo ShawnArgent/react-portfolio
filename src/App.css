@@ -8,8 +8,8 @@
 .light {
   --clr-bg: rgb(122, 190, 238);
   --clr-bg-alt: #fff;
-  --clr-fg: #555;
-  --clr-fg-alt: #444;
+  --clr-fg: #2978b5;
+  --clr-fg-alt: #2978b5;
   --clr-primary: #2978b5;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -94,7 +94,6 @@ main {
 .btn--outline {
   color: var(--clr-primary);
   background-color: #fcfcfc;
-  border: 2px solid var(--clr-primary);
   position: relative;
   overflow: hidden;
   z-index: 1;
