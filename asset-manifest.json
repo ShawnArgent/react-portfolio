@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.fe290bc4.css",
-    "main.js": "/react-portfolio/static/js/main.b7f2503d.js",
+    "main.css": "/react-portfolio/static/css/main.98bbb4a4.css",
+    "main.js": "/react-portfolio/static/js/main.85e5ffd6.js",
+    "static/media/git-fit.jpg": "/react-portfolio/static/media/git-fit.cb2c4efa50a2e8151e76.jpg",
+    "static/media/market-finder.jpg": "/react-portfolio/static/media/market-finder.0ac2d077a04a510c72a2.jpg",
+    "static/media/weather-dashboard.jpg": "/react-portfolio/static/media/weather-dashboard.8413d36f5b9836209a98.jpg",
+    "static/media/day-planner.jpg": "/react-portfolio/static/media/day-planner.73a271306e74489befe5.jpg",
+    "static/media/password-generator.jpg": "/react-portfolio/static/media/password-generator.aa7502e04d900db06c70.jpg",
+    "static/media/js-quiz.jpg": "/react-portfolio/static/media/js-quiz.ca222d20ca121116ad20.jpg",
+    "static/media/argent_resume.pdf": "/react-portfolio/static/media/argent_resume.f05309f37f4f14a529a5.pdf",
+    "static/media/MyAltLogo.jpg": "/react-portfolio/static/media/MyAltLogo.e946c86e0cb7e1ee2717.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.fe290bc4.css.map": "/react-portfolio/static/css/main.fe290bc4.css.map",
-    "main.b7f2503d.js.map": "/react-portfolio/static/js/main.b7f2503d.js.map"
+    "main.98bbb4a4.css.map": "/react-portfolio/static/css/main.98bbb4a4.css.map",
+    "main.85e5ffd6.js.map": "/react-portfolio/static/js/main.85e5ffd6.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe290bc4.css",
-    "static/js/main.b7f2503d.js"
+    "static/css/main.98bbb4a4.css",
+    "static/js/main.85e5ffd6.js"
   ]
 }
