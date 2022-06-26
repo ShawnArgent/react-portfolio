@@ -1,26 +1,31 @@
-import { useContext } from 'react'
-import { ThemeContext } from './contexts/theme'
-import Header from './components/Header'
-import About from './components/About'
-import Projects from './components/Projects'
-import Skills from './components/Skills'
+import React, { useState } from 'react';
+import Header from './components/Header/Header'
+import Nav from './components/Nav/Nav'
+import Page from './components/Page/Page'
 import ScrollToTop from './components/ScrollToTop'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
-import './App.css'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
-  const [{ themeName }] = useContext(ThemeContext)
+  const [pages] = useState([
+    {
+      name: 'about',
+    },
+    { name: 'portfolio' },
+    { name: 'contact' },
+    {
+      name: 'skills',
+    },
+  ]);
+  const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
-    <div id='top' className={`${themeName} app`}>
-      <Header />
-
+    <div>
+       <Header>
+        <Nav pages={pages} setCurrentPage={setCurrentPage} currentPage={currentPage}></Nav>
+      </Header>
       <main>
-        <About />
-        <Projects />
-        <Skills />
-        <Contact />
+      <Page currentPage={currentPage}></Page>
+
       </main>
 
       <ScrollToTop />
@@ -29,4 +34,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
