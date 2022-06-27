@@ -1,6 +1,6 @@
 import React from 'react';
-import { AiOutlineMail } from 'react-icons/ai'
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
+import { AiOutlineMail } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 const Contact = () => {
 
