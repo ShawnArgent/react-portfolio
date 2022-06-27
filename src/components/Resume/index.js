@@ -1,17 +1,16 @@
 import React from 'react';
-import resume from '../../assets/argent_resume.pdf'
+import resume from '../../assets/argent_resume.pdf';
 
 function Resume({ name }) {
     return(
 <section>
-<div className="flex justify-center h-max">
+<div className="container">
 <iframe 
     title="resume" 
     src={`${resume}`} 
     alt="My resume" 
+    width= "500"
     height="500" 
-    className="md:w-8/12 w-full"
-    scrolling="auto"
     type="application/pdf"
 />
 </div>

@@ -2,8 +2,8 @@ import React from 'react';
 import PageContent from '../PageContent';
 import About from '../About';
 import Portfolio from '../Portfolio';
-import Contact from '../Contact';
 import Skills from '../Skills';
+import Contact from '../Contact';
 import Resume from '../Resume';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
@@ -15,10 +15,10 @@ function Page({ currentPage }) {
         return <About />;
       case 'portfolio':
         return <Portfolio />;
+        case 'skills':
+          return <Skills />;
       case 'contact':
         return <Contact />;
-      case 'skills':
-        return <Skills />;
         case 'resume':
           return <Resume />;
       default:

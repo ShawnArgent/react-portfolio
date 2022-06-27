@@ -1,7 +1,6 @@
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
-import { FaFileDownload } from 'react-icons/fa'
 
 const Contact = () => {
 
@@ -17,9 +16,6 @@ const Contact = () => {
         </a>
         <a  href='https://www.linkedin.com/in/shawnargent/'
         className="icon"><AiFillLinkedin/>
-        </a>
-        <a  href='../../assets/argent_resume.pdf'
-        className="icon"><FaFileDownload/>
         </a>
 
     </section>
