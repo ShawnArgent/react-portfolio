@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.2a57514e.chunk.css",
-    "main.js": "/static/js/main.83c0263f.chunk.js",
-    "main.js.map": "/static/js/main.83c0263f.chunk.js.map",
+    "main.js": "/static/js/main.ddbe4c5f.chunk.js",
+    "main.js.map": "/static/js/main.ddbe4c5f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.867d5421.js",
     "runtime-main.js.map": "/static/js/runtime-main.867d5421.js.map",
     "static/js/2.ed9aeac2.chunk.js": "/static/js/2.ed9aeac2.chunk.js",
@@ -12,6 +12,7 @@
     "static/js/2.ed9aeac2.chunk.js.LICENSE.txt": "/static/js/2.ed9aeac2.chunk.js.LICENSE.txt",
     "static/media/MyAltLogo.e946c86e.jpg": "/static/media/MyAltLogo.e946c86e.jpg",
     "static/media/Untitled.jpg": "/static/media/Untitled.90895928.jpg",
+    "static/media/argent_resume.f05309f3.pdf": "/static/media/argent_resume.f05309f3.pdf",
     "static/media/day-planner.jpg": "/static/media/day-planner.73a27130.jpg",
     "static/media/git-fit.jpg": "/static/media/git-fit.cb2c4efa.jpg",
     "static/media/js-quiz.jpg": "/static/media/js-quiz.ca222d20.jpg",
@@ -27,6 +28,6 @@
     "static/js/runtime-main.867d5421.js",
     "static/js/2.ed9aeac2.chunk.js",
     "static/css/main.2a57514e.chunk.css",
-    "static/js/main.83c0263f.chunk.js"
+    "static/js/main.ddbe4c5f.chunk.js"
   ]
 }
