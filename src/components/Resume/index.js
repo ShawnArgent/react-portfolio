@@ -1,6 +1,8 @@
 import React from 'react';
 import resume from '../../assets/argent_resume.pdf'
 
+function Resume({ name }) {
+    return(
 <section>
 <div className="flex justify-center h-max">
 <iframe 
@@ -14,5 +16,6 @@ import resume from '../../assets/argent_resume.pdf'
 />
 </div>
 </section>
-
+    )
+}
 export default Resume;

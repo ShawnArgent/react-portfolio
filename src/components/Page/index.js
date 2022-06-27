@@ -4,6 +4,7 @@ import About from '../About';
 import Portfolio from '../Portfolio';
 import Contact from '../Contact';
 import Skills from '../Skills';
+import Resume from '../Resume';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Page({ currentPage }) {
@@ -18,6 +19,8 @@ function Page({ currentPage }) {
         return <Contact />;
       case 'skills':
         return <Skills />;
+        case 'resume':
+          return <Resume />;
       default:
         return <About />;
     }
