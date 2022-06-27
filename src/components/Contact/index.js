@@ -18,7 +18,7 @@ const Contact = () => {
         <a  href='https://www.linkedin.com/in/shawnargent/'
         className="icon"><AiFillLinkedin/>
         </a>
-        <a  href='https://shawnargent.github.io/react-portfolio/#resume'
+        <a  href='../../assets/argent_resume.pdf'
         className="icon"><FaFileDownload/>
         </a>
 

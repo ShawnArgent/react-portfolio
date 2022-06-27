@@ -1,7 +1,7 @@
 import React from 'react';
 import resume from '../../assets/argent_resume.pdf'
 
-function Resume() {
+function Resume({ name }) {
     return(
 <section>
 <div className="flex justify-center h-max">
