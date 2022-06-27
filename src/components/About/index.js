@@ -4,6 +4,7 @@ import React from 'react';
 function About() {
   return (
     <section className="my-5 center">
+      
         <h2>Shawn Argent</h2>
         <h3>
           Web Developer

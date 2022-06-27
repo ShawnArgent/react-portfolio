@@ -1,9 +1,9 @@
 import React from 'react';
-import PageContent from '../PageContent/PageContent';
-import About from '../About/About';
-import Portfolio from '../Portfolio/portfolio';
-import Contact from '../Contact/Contact';
-import Skills from '../Skills/Skills';
+import PageContent from '../PageContent';
+import About from '../About';
+import Portfolio from '../Portfolio';
+import Contact from '../Contact';
+import Skills from '../Skills';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Page({ currentPage }) {

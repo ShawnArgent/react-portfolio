@@ -1,5 +1,4 @@
 import React from 'react';
-import resume from '../../assets/argent_resume.pdf'
 import { AiOutlineMail } from 'react-icons/ai'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import { FaFileDownload } from 'react-icons/fa'
@@ -19,7 +18,7 @@ const Contact = () => {
         <a  href='https://www.linkedin.com/in/shawnargent/'
         className="icon"><AiFillLinkedin/>
         </a>
-        <a  href='src/assets/argent_resume.pdf'
+        <a  href='https://shawnargent.github.io/react-portfolio/#resume'
         className="icon"><FaFileDownload/>
         </a>
 

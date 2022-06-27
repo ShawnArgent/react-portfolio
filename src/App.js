@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import Header from './components/Header/Header'
-import Nav from './components/Nav/Nav'
-import Page from './components/Page/Page'
-import ScrollToTop from './components/ScrollToTop'
-import Footer from './components/Footer/Footer'
+import Header from './components/Header';
+import Nav from './components/Nav';
+import Page from './components/Page';
+import Footer from './components/Footer';
 
 const App = () => {
   const [pages] = useState([
@@ -12,6 +11,7 @@ const App = () => {
     },
     { name: 'portfolio' },
     { name: 'contact' },
+    { name: 'resume' },
     {
       name: 'skills',
     },
@@ -28,7 +28,6 @@ const App = () => {
 
       </main>
 
-      <ScrollToTop />
       <Footer />
     </div>
   )

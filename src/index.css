@@ -24,11 +24,9 @@ main {
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 html,
 body {
+  scroll-behavior: smooth;
   min-height: 100%;
 }
 
@@ -50,8 +48,9 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: 'Helvetica Neue', Arial;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.25;
   margin: 5px 0;
   text-align: center;
 }
@@ -88,6 +87,7 @@ p {
   margin: 20px 0;
   line-height: 2rem;
 }
+
 a {
   color: var(--light);
   text-decoration: none;
@@ -298,7 +298,7 @@ footer a:hover {
 }
 
 .project-text {
-    color: var(--light);
+    color: var(--secondary);
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -311,7 +311,7 @@ footer a:hover {
 }
 
 .project-text:hover {
-  background-color: var(--alpha);
+  background-color: var(--light);
   opacity: 1;
   border: 10px solid var(--secondary);
 }
@@ -323,10 +323,18 @@ footer a:hover {
 .project-text a {
   text-decoration: none;
   font-weight: bold;
-  color: var(--dark);
+  color: var(--secondary);
   transition: all .3s ease-in-out;
 }
+.link-icon {
+  font-size: 1.5em;
+  color: var(--secondary);
 
+}
+.projectIcon {
+  font-size: 2em;
+  align-items: center;
+}
 .project-text a:hover {
   color: var(--darker);
 }
