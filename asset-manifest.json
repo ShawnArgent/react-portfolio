@@ -1,21 +1,32 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.98bbb4a4.css",
-    "main.js": "/react-portfolio/static/js/main.85e5ffd6.js",
-    "static/media/git-fit.jpg": "/react-portfolio/static/media/git-fit.cb2c4efa50a2e8151e76.jpg",
-    "static/media/market-finder.jpg": "/react-portfolio/static/media/market-finder.0ac2d077a04a510c72a2.jpg",
-    "static/media/weather-dashboard.jpg": "/react-portfolio/static/media/weather-dashboard.8413d36f5b9836209a98.jpg",
-    "static/media/day-planner.jpg": "/react-portfolio/static/media/day-planner.73a271306e74489befe5.jpg",
-    "static/media/password-generator.jpg": "/react-portfolio/static/media/password-generator.aa7502e04d900db06c70.jpg",
-    "static/media/js-quiz.jpg": "/react-portfolio/static/media/js-quiz.ca222d20ca121116ad20.jpg",
-    "static/media/argent_resume.pdf": "/react-portfolio/static/media/argent_resume.f05309f37f4f14a529a5.pdf",
-    "static/media/MyAltLogo.jpg": "/react-portfolio/static/media/MyAltLogo.e946c86e0cb7e1ee2717.jpg",
-    "index.html": "/react-portfolio/index.html",
-    "main.98bbb4a4.css.map": "/react-portfolio/static/css/main.98bbb4a4.css.map",
-    "main.85e5ffd6.js.map": "/react-portfolio/static/js/main.85e5ffd6.js.map"
+    "main.css": "/static/css/main.2a57514e.chunk.css",
+    "main.js": "/static/js/main.83c0263f.chunk.js",
+    "main.js.map": "/static/js/main.83c0263f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.867d5421.js",
+    "runtime-main.js.map": "/static/js/runtime-main.867d5421.js.map",
+    "static/js/2.ed9aeac2.chunk.js": "/static/js/2.ed9aeac2.chunk.js",
+    "static/js/2.ed9aeac2.chunk.js.map": "/static/js/2.ed9aeac2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2a57514e.chunk.css.map": "/static/css/main.2a57514e.chunk.css.map",
+    "static/js/2.ed9aeac2.chunk.js.LICENSE.txt": "/static/js/2.ed9aeac2.chunk.js.LICENSE.txt",
+    "static/media/MyAltLogo.e946c86e.jpg": "/static/media/MyAltLogo.e946c86e.jpg",
+    "static/media/Untitled.jpg": "/static/media/Untitled.90895928.jpg",
+    "static/media/day-planner.jpg": "/static/media/day-planner.73a27130.jpg",
+    "static/media/git-fit.jpg": "/static/media/git-fit.cb2c4efa.jpg",
+    "static/media/js-quiz.jpg": "/static/media/js-quiz.ca222d20.jpg",
+    "static/media/market-finder.jpg": "/static/media/market-finder.0ac2d077.jpg",
+    "static/media/note-taker.jpg": "/static/media/note-taker.45e1c90c.jpg",
+    "static/media/password-generator.jpg": "/static/media/password-generator.aa7502e0.jpg",
+    "static/media/project-java.jpg": "/static/media/project-java.12da969c.jpg",
+    "static/media/team-profile.jpg": "/static/media/team-profile.81e218f3.jpg",
+    "static/media/text-editor.jpg": "/static/media/text-editor.81f4f7d7.jpg",
+    "static/media/weather-dashboard.jpg": "/static/media/weather-dashboard.8413d36f.jpg"
   },
   "entrypoints": [
-    "static/css/main.98bbb4a4.css",
-    "static/js/main.85e5ffd6.js"
+    "static/js/runtime-main.867d5421.js",
+    "static/js/2.ed9aeac2.chunk.js",
+    "static/css/main.2a57514e.chunk.css",
+    "static/js/main.83c0263f.chunk.js"
   ]
 }
