@@ -88,11 +88,10 @@ p {
 a {
   color: var(--light);
   text-decoration: none;
-  opacity: .5;
 }
 
 a:hover {
-  opacity: 1;
+  opacity: .5;
   transition: all .2s ease-in-out;
 }
 
