@@ -7,17 +7,14 @@ main {
 :root {
   --primary: #85c0e5;
   --secondary: #85c0e5;
-  --tertiary: #b12704;
   --light: #0e0e50;
   --dark: #85c0e5;
   --darker: #85c0e5;
   --alpha: rgba(255,255,255,.7);
-  --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-  
-  
+   
 }
 
 * {
@@ -107,31 +104,6 @@ header a {
   color: var(--light);
 }
 
-button {
-  font-size: 1rem;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 0.5rem;
-  border: none;
-  color: #fff;
-  outline: none;
-  cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--light);
-  padding: 10px 15px;
-  opacity: 0.7;
-}
-
-
-button:hover {
-  opacity: 1;
-}
-
-button[disabled] {
-  cursor: default;
-  opacity: 0.8;
-}
-
 img {
   max-width: 100%;
 }
@@ -168,8 +140,11 @@ nav {
   margin: 30px 20px;
 }
 
-nav a:hover {
+nav li:hover {
   text-decoration: none;
+  color: var(--alpha);
+  opacity: 1;
+  transition: all .2s ease-in-out;
 }
 
 nav li {
@@ -206,6 +181,7 @@ footer a {
 
 footer a:hover {
   opacity: 1;
+  color: var(--alpha);
 }
 
 .container {
@@ -279,11 +255,6 @@ footer a:hover {
 .py-2 {
   padding-top: var(--spacing-two);
   padding-bottom: var(--spacing-two);
-}
-
-.card {
-  width: 25%;
-  text-align: center;
 }
 
 .project {
@@ -386,4 +357,3 @@ footer a:hover {
     font-size: 2.3rem;
   }
 }
-
