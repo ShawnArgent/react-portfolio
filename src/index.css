@@ -13,8 +13,7 @@ main {
   --alpha: rgba(255,255,255,.7);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem);
-   
+  --spacing-five: calc(2.5rem); 
 }
 
 * {
