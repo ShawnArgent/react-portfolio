@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => (
   <footer className='footer'>
     <a
-      href='https://github.com/ShawnArgent/react-portfolio'
+      href='https://shawnargent.com'
       className='link footer-link'
     >
       Created By Shawn Argent
