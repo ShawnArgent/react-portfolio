@@ -11,10 +11,10 @@ function Project({ project }) {
       <img src={require(`../../assets/projects/${name}.jpg`).default} alt={removeHyphensAndCapitalize(name)} className='project-bg' />
       <div className='project-text'>
         <h3>
-          <a href={link}>{removeHyphensAndCapitalize(name)}
+          <a href={link} target='_blank' rel='noopener noreferrer'>{removeHyphensAndCapitalize(name)}
           <i className='link-icon'><FiExternalLink/></i>
 </a>{' '}
-          <a href={repo}>
+          <a href={repo} target='_blank' rel='noopener noreferrer'>
          <i className="projectIcon"><AiFillGithub/></i>
           </a>
         </h3>
