@@ -80,6 +80,16 @@ button.navbar-toggler:visited {
   margin-top: 10px;
 }
 
+.about-center {
+  text-align: center;
+}
+.about-photo {
+  width: 20vh;
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+}
+
+
 h1,
 h2,
 h3,
@@ -109,6 +119,10 @@ h3 {
 
 h4 {
   font-size: 1.3rem;
+  color: var(--light);
+  text-align: center;
+  margin: 20px 0;
+  line-height: 2rem;
 }
 
 h5 {
@@ -119,11 +133,11 @@ h6 {
   font-size: 1rem;
 }
 
-
 p {
   font-size: 1.1rem;
   color: var(--light);
-  text-align: center;
+  text-align: justify;
+  text-justify: inter-word;
   margin: 20px 0;
   line-height: 2rem;
 }

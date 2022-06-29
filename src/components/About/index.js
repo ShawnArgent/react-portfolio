@@ -1,5 +1,6 @@
 
 import React from 'react';
+import outdoor from '../../assets/outdoor.jpeg';
 
 function About() {
   return (
@@ -9,9 +10,16 @@ function About() {
         <h3>
           Web Developer
         </h3>
-        <p>
+        <div className="col-md about-center">
+            <img src={outdoor} className="about-photo img-fluid" alt="Me"></img>
+        </div>
+        <h4>
           UCSD Extended Studies Full Stack Bootcamp - Award of Completion Certificate - June 2022
-        </p>
+        </h4>
+        <p> 
+        Dedicated problem solver with a creative mind, making a career transition to web development. With a diverse professional background which includes advertising, media, e-commerce, brand management, real estate, restaurant, retail, construction management, and golf, I'm looking forward to implementing newly learned software development skills in ways that benefit both the organization/brand and end-user. 
+        I'm an avid, competitive golfer who loves learning new things, spending time with my two dogs, helping people, cooking, creating electronic music and honing software developer skills.
+</p>
     </section>
   );
 }
