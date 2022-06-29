@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.148bab30.chunk.css",
-    "main.js": "/static/js/main.8c2244f9.chunk.js",
-    "main.js.map": "/static/js/main.8c2244f9.chunk.js.map",
+    "main.css": "/static/css/main.39cc0942.chunk.css",
+    "main.js": "/static/js/main.5919bcb5.chunk.js",
+    "main.js.map": "/static/js/main.5919bcb5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.867d5421.js",
     "runtime-main.js.map": "/static/js/runtime-main.867d5421.js.map",
     "static/js/2.4650fe11.chunk.js": "/static/js/2.4650fe11.chunk.js",
     "static/js/2.4650fe11.chunk.js.map": "/static/js/2.4650fe11.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.148bab30.chunk.css.map": "/static/css/main.148bab30.chunk.css.map",
+    "static/css/main.39cc0942.chunk.css.map": "/static/css/main.39cc0942.chunk.css.map",
     "static/js/2.4650fe11.chunk.js.LICENSE.txt": "/static/js/2.4650fe11.chunk.js.LICENSE.txt",
-    "static/media/MyAltLogo.e946c86e.jpg": "/static/media/MyAltLogo.e946c86e.jpg",
+    "static/media/MyAltLogo.dec07b46.png": "/static/media/MyAltLogo.dec07b46.png",
     "static/media/Untitled.jpg": "/static/media/Untitled.90895928.jpg",
     "static/media/argent_resume.9e591f2c.pdf": "/static/media/argent_resume.9e591f2c.pdf",
     "static/media/day-planner.jpg": "/static/media/day-planner.73a27130.jpg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.867d5421.js",
     "static/js/2.4650fe11.chunk.js",
-    "static/css/main.148bab30.chunk.css",
-    "static/js/main.8c2244f9.chunk.js"
+    "static/css/main.39cc0942.chunk.css",
+    "static/js/main.5919bcb5.chunk.js"
   ]
 }
