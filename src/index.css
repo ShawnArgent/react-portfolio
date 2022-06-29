@@ -38,15 +38,12 @@ body {
 }
 
 .navbar {
-  background: transparent;
+  background: rgb(143, 204, 242);
   display: flex;
   flex-wrap: wrap;
   z-index: 50;
-  position: center;
-  font-family: 'Helvetica', arial;
   color: var(--light);
-  font-size: 1em;
-  margin: 30px 20px;
+  margin: 40px 20px;
 }
 .navbar-nav {
   display: flex;
@@ -55,12 +52,10 @@ body {
 
 .nav-item {
   font-size: 21px;
-  text-align: center;
   padding-left: 20px;
   padding-right: 20px;
   letter-spacing: 2px;
   color: var(--light);
-  font-family: 'Helvetica', Arial;
 }
 .nav-link {
   color: var(--alpha);
@@ -82,6 +77,8 @@ button.navbar-toggler:visited {
 
 .about-center {
   text-align: center;
+  
+  
 }
 .about-photo {
   width: 20vh;
@@ -111,6 +108,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
+
 }
 
 h3 {
@@ -120,13 +118,16 @@ h3 {
 h4 {
   font-size: 1.3rem;
   color: var(--light);
+  background: rgb(143, 204, 242);
+  padding: 2rem;
   text-align: center;
   margin: 20px 0;
   line-height: 2rem;
 }
 
 h5 {
-  font-size: 1.25
+  font-size: 1.25;
+  color: var(--dark);
 }
 
 h6 {
@@ -136,7 +137,9 @@ h6 {
 p {
   font-size: 1.1rem;
   color: var(--light);
+  background-color:rgb(143, 204, 242);
   text-align: justify;
+  padding: 2rem;
   text-justify: inter-word;
   margin: 20px 0;
   line-height: 2rem;
@@ -152,18 +155,10 @@ a:hover {
   transition: all .2s ease-in-out;
 }
 
-header {
-  background: var(--dark);
-}
-
-header a {
-  color: var(--light);
-}
 .logo {
-  position: relative;
+  background-color:rgb(143, 204, 242);
   display: flex;
-  margin-left: 5px;
-  margin-top: 5x;
+  margin-left: 0px;
 
 }
 img {
@@ -181,20 +176,8 @@ label {
 
 li {
   list-style: none;
+  color: var(--light);
 }
-
-header {
-  height: 200px;
-  position: relative;
-  overflow: flex;
-  z-index: 2;
-}
-
-header h1 {
-  position: relative;
-  z-index: 2;
-}
-
 
 nav li:hover {
   text-decoration: none;

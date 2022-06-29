@@ -18,7 +18,7 @@ function Project({ project }) {
          <i className="projectIcon"><AiFillGithub/></i>
           </a>
         </h3>
-        <p>{description}</p>
+        <h5>{description}</h5>
       </div>
     </div>
   );
