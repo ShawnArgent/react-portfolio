@@ -28,7 +28,7 @@ npm start from command line, launches browser.
 
 ## Screenshot
 
-![image](public/images/shawnargent.github.io_react-portfolio_.png)
+![image](public/react-portfolio.jpg)
 
 ## Deployment
 
