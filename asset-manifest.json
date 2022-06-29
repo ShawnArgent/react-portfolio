@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.045e27f8.chunk.css",
-    "main.js": "/static/js/main.41159b98.chunk.js",
-    "main.js.map": "/static/js/main.41159b98.chunk.js.map",
+    "main.css": "/static/css/main.148bab30.chunk.css",
+    "main.js": "/static/js/main.8c2244f9.chunk.js",
+    "main.js.map": "/static/js/main.8c2244f9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.867d5421.js",
     "runtime-main.js.map": "/static/js/runtime-main.867d5421.js.map",
     "static/js/2.4650fe11.chunk.js": "/static/js/2.4650fe11.chunk.js",
     "static/js/2.4650fe11.chunk.js.map": "/static/js/2.4650fe11.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.045e27f8.chunk.css.map": "/static/css/main.045e27f8.chunk.css.map",
+    "static/css/main.148bab30.chunk.css.map": "/static/css/main.148bab30.chunk.css.map",
     "static/js/2.4650fe11.chunk.js.LICENSE.txt": "/static/js/2.4650fe11.chunk.js.LICENSE.txt",
     "static/media/MyAltLogo.e946c86e.jpg": "/static/media/MyAltLogo.e946c86e.jpg",
     "static/media/Untitled.jpg": "/static/media/Untitled.90895928.jpg",
@@ -18,6 +18,7 @@
     "static/media/js-quiz.jpg": "/static/media/js-quiz.ca222d20.jpg",
     "static/media/market-finder.jpg": "/static/media/market-finder.0ac2d077.jpg",
     "static/media/note-taker.jpg": "/static/media/note-taker.45e1c90c.jpg",
+    "static/media/outdoor.3ae0130c.jpeg": "/static/media/outdoor.3ae0130c.jpeg",
     "static/media/password-generator.jpg": "/static/media/password-generator.aa7502e0.jpg",
     "static/media/project-java.jpg": "/static/media/project-java.12da969c.jpg",
     "static/media/team-profile.jpg": "/static/media/team-profile.81e218f3.jpg",
@@ -27,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.867d5421.js",
     "static/js/2.4650fe11.chunk.js",
-    "static/css/main.045e27f8.chunk.css",
-    "static/js/main.41159b98.chunk.js"
+    "static/css/main.148bab30.chunk.css",
+    "static/js/main.8c2244f9.chunk.js"
   ]
 }
