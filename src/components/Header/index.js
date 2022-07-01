@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../../assets/MyAltLogo.png'
+import image from '../../assets/codelogo.png'
 
 const Header = (props) => {
     return (

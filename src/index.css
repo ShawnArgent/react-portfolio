@@ -5,12 +5,12 @@ main {
 }
 
 :root {
-  --primary: #85c0e5;
-  --secondary: #85c0e5;
-  --light: #0e0e50;
-  --dark: #85c0e5;
-  --darker: #85c0e5;
-  --alpha: rgba(255,255,255,.7);
+  --primary: #d5dee8;;
+  --secondary: #d5dee8;;
+  --light: #2557b0;
+  --dark: #d5dee8;;
+  --darker: #d5dee8;;
+  --alpha: #d5dee8;;
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem); 
@@ -24,21 +24,20 @@ html,
 body {
   scroll-behavior: smooth;
   min-height: 100%;
-  background-color: #85c0e5;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.5;
   font-size: 18px;
+  background-image: url(./assets/sierra.jpg);
   letter-spacing: 0.1em;
-  font-family: 'Helvetica Neue', Arial;
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar {
-  background: rgb(143, 204, 242);
   display: flex;
   flex-wrap: wrap;
   z-index: 50;
@@ -52,6 +51,7 @@ body {
 
 .nav-item {
   font-size: 21px;
+  font-weight: 600;
   padding-left: 20px;
   padding-right: 20px;
   letter-spacing: 2px;
@@ -81,7 +81,7 @@ button.navbar-toggler:visited {
   
 }
 .about-photo {
-  width: 20vh;
+  width: 30vh;
   margin-top: 0vh;
   margin-bottom: 0vh;
 }
@@ -93,7 +93,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Helvetica Neue', Arial;
+  font-family: 'Raleway', sans-serif;
   color: var(--light);
   font-weight: 500;
   line-height: 1.25;
@@ -108,18 +108,21 @@ h1 {
 
 h2 {
   font-size: 2rem;
-
+  font-weight: 600;
+  
 }
 
 h3 {
   font-size: 1.5rem;
+  font-weight: 500;
 }
 
 h4 {
   font-size: 1.3rem;
   color: var(--light);
-  background: rgb(143, 204, 242);
+  background-color:#d5dee8;
   padding: 2rem;
+  font-weight: 500;
   text-align: center;
   margin: 20px 0;
   line-height: 2rem;
@@ -137,7 +140,7 @@ h6 {
 p {
   font-size: 1.1rem;
   color: var(--light);
-  background-color:rgb(143, 204, 242);
+  background-color:#d5dee8;
   text-align: justify;
   padding: 2rem;
   text-justify: inter-word;
@@ -156,8 +159,10 @@ a:hover {
 }
 
 .logo {
-  background-color:rgb(143, 204, 242);
+  background-color:#d5dee8;
   display: flex;
+  align-items: center;
+  height: 100px;
   margin-left: 0px;
 
 }
@@ -181,7 +186,7 @@ li {
 
 nav li:hover {
   text-decoration: none;
-  color: var(--alpha);
+  color: #99a6bc;
   opacity: 1;
   transition: all .2s ease-in-out;
 }
@@ -208,11 +213,11 @@ footer {
   font-size: 16px;
   justify-content: center;
   text-align: center;
-  color:rgb(218, 228, 228);
+  color: #ebeff1;
 }
 
 footer a {
-  color: var(--light);
+  color: #ebeff1;
   opacity: .5;
   margin: 10px 20px;
   transition: all .3s ease-in-out;
@@ -220,6 +225,7 @@ footer a {
 
 footer a:hover {
   opacity: 1;
+  text-decoration: none;
   color: var(--alpha);
 }
 
