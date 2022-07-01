@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.39cc0942.chunk.css",
-    "main.js": "/static/js/main.5919bcb5.chunk.js",
-    "main.js.map": "/static/js/main.5919bcb5.chunk.js.map",
+    "main.css": "/static/css/main.9bec6c5c.chunk.css",
+    "main.js": "/static/js/main.ccf5d994.chunk.js",
+    "main.js.map": "/static/js/main.ccf5d994.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.867d5421.js",
     "runtime-main.js.map": "/static/js/runtime-main.867d5421.js.map",
     "static/js/2.4650fe11.chunk.js": "/static/js/2.4650fe11.chunk.js",
     "static/js/2.4650fe11.chunk.js.map": "/static/js/2.4650fe11.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.39cc0942.chunk.css.map": "/static/css/main.39cc0942.chunk.css.map",
+    "static/css/main.9bec6c5c.chunk.css.map": "/static/css/main.9bec6c5c.chunk.css.map",
     "static/js/2.4650fe11.chunk.js.LICENSE.txt": "/static/js/2.4650fe11.chunk.js.LICENSE.txt",
-    "static/media/MyAltLogo.dec07b46.png": "/static/media/MyAltLogo.dec07b46.png",
     "static/media/Untitled.jpg": "/static/media/Untitled.90895928.jpg",
     "static/media/argent_resume.9e591f2c.pdf": "/static/media/argent_resume.9e591f2c.pdf",
+    "static/media/codelogo.b3dca0c9.png": "/static/media/codelogo.b3dca0c9.png",
     "static/media/day-planner.jpg": "/static/media/day-planner.73a27130.jpg",
     "static/media/git-fit.jpg": "/static/media/git-fit.cb2c4efa.jpg",
     "static/media/js-quiz.jpg": "/static/media/js-quiz.ca222d20.jpg",
@@ -21,6 +21,7 @@
     "static/media/outdoor.3ae0130c.jpeg": "/static/media/outdoor.3ae0130c.jpeg",
     "static/media/password-generator.jpg": "/static/media/password-generator.aa7502e0.jpg",
     "static/media/project-java.jpg": "/static/media/project-java.12da969c.jpg",
+    "static/media/index.css": "/static/media/sierra.d7997e64.jpg",
     "static/media/team-profile.jpg": "/static/media/team-profile.81e218f3.jpg",
     "static/media/text-editor.jpg": "/static/media/text-editor.81f4f7d7.jpg",
     "static/media/weather-dashboard.jpg": "/static/media/weather-dashboard.8413d36f.jpg"
@@ -28,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.867d5421.js",
     "static/js/2.4650fe11.chunk.js",
-    "static/css/main.39cc0942.chunk.css",
-    "static/js/main.5919bcb5.chunk.js"
+    "static/css/main.9bec6c5c.chunk.css",
+    "static/js/main.ccf5d994.chunk.js"
   ]
 }
